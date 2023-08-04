@@ -23,6 +23,6 @@ else:
     st.write(f"Count: {count}")
 
 
-df=pd.read_csv("Attendance/Attendance_" + date + ".csv")
+# df=pd.read_csv("Attendance/Attendance_" + date + ".csv")
 
 st.dataframe(df.style.highlight_max(axis=0))
